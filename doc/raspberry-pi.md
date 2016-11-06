@@ -173,7 +173,7 @@ If you are using Raspberry Pi 2, it is necessary to replace Caddy webserver bina
 
 `curl https://getcaddy.com | bash`
 
-`cp /usr/local/bin caddy /var/hub/caddy`
+`cp /usr/local/bin/caddy /var/hub/caddy`
 
 `docker exec hub cp /var/hub/caddy /usr/local/bin/caddy`
 
